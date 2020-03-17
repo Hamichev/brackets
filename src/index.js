@@ -1,4 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
+    if (/\w/.test(str)){return false;}
   let arr=str.split(''),N=0;
    for (let i=0;i<arr.length;i++)
    {
