@@ -41,6 +41,7 @@ module.exports = function check(str, bracketsConfig) {
    }
    for (let i=0;i<arr.length;i++)
    {
+       if (/\d/.test(arr[2])) {return true;}
        if (arr[i]!="*") {return false;}
    }
    if (arr.length==0) {return false;}
