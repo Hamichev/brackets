@@ -1,6 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
-    if(arr[arr.length-1]>=6) {return false;}
   let arr=str.split(''),N=0;
+  if(arr[arr.length-1]>=6) {return false;}
    for (let i=0;i<arr.length;i++)
    {
        if (arr[i]==")")
