@@ -1,5 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-    if (/\w/.test(str)){return false;}
+    if(arr[arr.length-1]>=6) {return false;}
   let arr=str.split(''),N=0;
    for (let i=0;i<arr.length;i++)
    {
@@ -43,5 +43,6 @@ module.exports = function check(str, bracketsConfig) {
    {
        if (arr[i]!="*") {return false;}
    }
+   if (arr.length==0) {return false;}
    return true;
 }
